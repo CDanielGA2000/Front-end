@@ -1,0 +1,34 @@
+.llamada  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: #FFFFFF;
+    text-align: center;
+    
+    background-color: #00161C;
+
+    padding-top: 3.25rem;
+    padding-bottom: 4rem;
+}
+
+.llamada_title {
+    font-family: var(--montserrat);
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+.llamada_paragraph {
+    font-size: 1.25rem;
+    line-height: normal;
+
+    margin: 0 auto 2.5rem;
+}
+
+.boton {
+    width: 100%;
+    font-weight: 700;
+    margin: 0 auto
+}

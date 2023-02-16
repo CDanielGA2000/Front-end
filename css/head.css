@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+.headerPrincipal .container{
+    border-bottom: 1px solid #103D4A;
+    background-color: #00161C;
+    color: white;
+    text-align: center;
+}
+.headerPrincipal_links{
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center
+}
+.headerPrincipal_nav-link{
+    font-size: .95rem;
+    font-weight: 300;
+
+    display: inline-block;
+
+    margin-right: .7rem;
+    margin-bottom: 1rem;
+    margin-left: .7rem;
+}
+
