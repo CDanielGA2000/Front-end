@@ -10,7 +10,7 @@
     font-family: var(--montserrat);
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1.9rem;
 }
 
 .sobre_nosotros-texto {
@@ -37,4 +37,23 @@
 .sobre_nosotros-texto--division{
     margin-top: 1rem;
     margin-bottom: 2rem;
+}
+@media screen and (min-width: 1024px) {
+    .sobre_nosotros {
+        display: flex;
+    }
+    .sobre_nosotros__contenido {
+        margin-right: 3rem;
+    }
+    .sobre_nosotros__titulo {
+        text-align: left;
+    }
+    .sobre-nosotros__texto--division {
+        border-bottom: 1px solid var(--cinza-medio);
+
+        padding-bottom: 1.5rem;
+    }
+    .sobre-nosotros__imagen {
+        display: block;
+    }
 }

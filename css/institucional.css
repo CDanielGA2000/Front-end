@@ -24,6 +24,8 @@
 .institucional_paragraph {
     margin-bottom: 2rem;
     color: var(--fuente-ceniza-claro);
+        font-size: 15px;
+        line-height: 16px;
 }
 
 .institucional_address {
@@ -52,4 +54,30 @@
 
 .institucional_video {
     width: 100vw;
+    max-width: 680px;
 }
+
+@media screen and (min-width: 768px){
+    .institucional_contacto-email{
+        display: inline-block;
+    }
+    .institucional_video{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .institucional_contenido {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+    }
+    .institucional_video {
+        align-self: flex-end;
+        width: 375px;
+    }
+    .institucional_contacto-email {
+        display: block;
+    }
+}
+

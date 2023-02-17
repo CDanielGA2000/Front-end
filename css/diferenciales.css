@@ -37,3 +37,8 @@
 .diferenciales_item-quimica{
     background-image: url(/img/icono-quimica.png);
 }
+@media screen and (min-width: 1024px) {
+    .diferenciales {
+        background-color: var(--cinza-claro);
+    }
+}

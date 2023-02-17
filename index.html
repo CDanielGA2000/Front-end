@@ -26,12 +26,12 @@
             <nav class="headerPrincipal_nav">
                 <img src="img/logo-apeperia.svg" alt="logo de la pagina">
                 <div class="headerPrincipal_links">
-                    <a href="#" class="headerPrincipal_nav-link">Sobre Nosotros</a>
-                    <a href="#" class="headerPrincipal_nav-link">Planes</a>
+                    <a href="#sobre_nosotros" class="headerPrincipal_nav-link">Sobre Nosotros</a>
+                    <a href="#planes" class="headerPrincipal_nav-link">Planes</a>
                     <a href="#" class="headerPrincipal_nav-link">Blog</a>
-                    <a href="#" class="headerPrincipal_nav-link">Destacados</a>
-                    <a href="#" class="headerPrincipal_nav-link">Institucional</a>
-                    <a href="#" class="headerPrincipal_nav-link">Contacto</a>
+                    <a href="#destacados" class="headerPrincipal_nav-link">Destacados</a>
+                    <a href="#institucional" class="headerPrincipal_nav-link">Institucional</a>
+                    <a href="#contacto" class="headerPrincipal_nav-link">Contacto</a>
                 </div>               
             </nav>
         </div>
@@ -49,7 +49,7 @@
         <section class="destacados container">
             <h2 class="destacados_title">Destacados</h2>
             <a href="#">
-                <figure class="destacados_panel">
+                <figure class="destacados_panel" id="destacados">
                     <img src="img/empezando-a-crear-logo.png" alt="" class="destacados_panel-imagen">
                         <figcaption class="destacados_panel-texto">Conozca las primeras etapas de la creación de un logotipo</figcaption>
                     </img>
@@ -79,7 +79,7 @@
                 </li>
             </ul>
         </section>
-        <section class="sobre_nosotros container">
+        <section class="sobre_nosotros container" id="sobre_nosotros">
             <div class="sobre_nosotros-contenido">
                 <h2 class="sobre_nosotros-titulo">Sobre nosotros</h2>
                 <p class="sobre_nosotros-texto">
@@ -102,7 +102,7 @@
                 <p class="sobre_nosotros-texto">Desarrollamos aplicaciones para todas plataformas</p>
             </div>
         </section>
-        <section class="planes container">
+        <section class="planes container" id="planes">
             <h2 class="planes_titulo">Planes</h2>
             <ul class="planes_tarjetas">
                 <li class="tarjetas tarjetas--start">
@@ -137,16 +137,17 @@
                 </li>
             </ul>
         </section>
-        <section class="contacto container">
+        <section class="contacto container" id="contacto">
             <h2 class="contacto_title">Contacto</h2>
             <p>Entre en contacto con nosotros</p>
             <a href="#" class="contacto_boton boton">Entre en contacto</a>
         </section>
-        <section class="institucional container">
+        <section class="institucional container" id="institucional">
             <h2 class="institucional_title">Institucional</h2>
-            <p class="institucional_paragraph">Un poco más sobre Apeperia
-            </p>
+            <div class="institucional_contenido">
             <address class="institucional_address">
+                <p class="institucional_paragraph">Un poco más sobre Apeperia
+                </p>
                 Calle Vergueiro, 3185 </br>
                 Villa Mariana, São Paulo
                 <article class="institucional_contacto">
@@ -158,36 +159,24 @@
                 </article>
             </address>
             <video src="img/formacion-java.mp4" class="institucional_video" controls></video>
+        </div>
         </section>
-        <footer class="footer">
+        <footer class="footer container">
             <img src="img/logo-apeperia.svg" alt="logo apeperia footer">
             <div class="footer_social">
-                <img class="footer_midia" src="img/facebook.png" alt="">
-                <img class="footer_midia" src="img/twitter.png" alt="">
-                <img class="footer_midia" src="img/instagram.png" alt="">
+                <a href="https://www.facebook.com/CDGA2000gg/" target="_blank"><img class="footer_midia" src="img/facebook.png" alt=""></a>
+                <a href="https://twitter.com/CDanielGA2000" target="_blank"><img class="footer_midia" src="img/twitter.png" alt=""></a>
+                <a href="https://www.instagram.com/realonlineinvestment/" target="_blank"><img class="footer_midia" src="img/instagram.png" alt=""></a>
             </div>
             <div class="footer_links">
-                <a href="#" class="footer_nav-link">Sobre Nosotros</a>
-                <a href="#" class="footer_nav-link">Planes</a>
+                <a href="#sobre_nosotros" class="footer_nav-link">Sobre Nosotros</a>
+                <a href="#planes" class="footer_nav-link">Planes</a>
                 <a href="#" class="footer_nav-link">Blog</a>
-                <a href="#" class="footer_nav-link">Destacados</a>
-                <a href="#" class="footer_nav-link">Institucional</a>
-                <a href="#" class="footer_nav-link">Contacto</a>
+                <a href="#destacados" class="footer_nav-link">Destacados</a>
+                <a href="#institucional" class="footer_nav-link">Institucional</a>
+                <a href="#contacto" class="footer_nav-link">Contacto</a>
             </div>               
         </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
     </main>
 </body>
 </html>
